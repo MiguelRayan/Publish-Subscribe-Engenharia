@@ -16,6 +16,6 @@ public class App {
         new Notificate();
 
         ClientApp cliente = newClientApp();
-        cliente.fazerReserva("João da Silva", 4, LocalDateTime.now().plusHours(2));
+        cliente.MakeReservation("João da Silva", 4, LocalDateTime.now().plusHours(2));
     }
 }
