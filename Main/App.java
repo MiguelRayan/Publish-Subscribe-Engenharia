@@ -15,7 +15,7 @@ public class App {
         new Panel();
         new Notificate();
 
-        ClientApp cliente = newClientApp();
+        ClientApp cliente = new ClientApp();
         cliente.MakeReservation("João da Silva", 4, LocalDateTime.now().plusHours(2));
     }
 }
